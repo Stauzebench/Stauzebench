@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+	
+	div.body {
+	background-color: #57BA98; 
+	background-image: url("hpnavbg2.png");
+	background-size: 33%;
+	border-radius: 5px;
+	margin: auto;
+	width:100%; 
+	max-width: 952px
+	}
+	
+	div.header {
+	background-color: #182628; 
+	background-image: url("bb_header.gif");
+	border-radius: 5px;
+	background-position: center;
+	height: 138px
+	}
+	
+	div.logo {
+	height: 138px; 
+	width: 138px; 
+	background-color: ; 
+	margin: auto
+	}
+	
+	div.navleft {
+	border: 0px solid black; 
+	float: left; 
+	position: -webkit-sticky; 
+	position: sticky; 
+	top: 0px; 
+	width: 100px
+	}
+	
+	div.navright {
+	border: 0px solid black; 
+	float: right; 
+	position: -webkit-sticky; 
+	position: sticky; 
+	top: 0px; 
+	width: 100px
+	}
+	
+	div.mainbox {
+	background-color: #65CCB8;
+    background-image: url("hp_mainbox_bg.png");	
+	height: 1000px; 
+	max-width: 752px; 
+	background-size: 25%;
+	margin: auto; 
+	clear: both
+	border: 10px solid black;
+    border-radius: 5px;
+	}
+	
+	li {
+	background-image: url("hp_box_bg.png");
+	background-size: 100%;
+	list-style-type: none; 
+	border: 0px solid black; 
+	border-radius: 4px;
+	height: 46px; 
+	text-align: center; 
+	margin: 0; 
+	padding: 0; 
+	}
+	  
+	li a {
+	display: block; 
+	height: 46px; 
+	text-decoration: none; 
+	line-height: 46px
+	}
+	
+	a {
+	color: white;
+	}
+	
+	li a:hover {
+	background-size: 100%;
+	background-image: url("hp_box_bg_hoover.png");
+	border: 0px solid black; 
+	border-radius: 4px;
+	background-color: #555; 
+	color: white
+	}
+	
+	li.articles-dropright:hover div.articles-content {
+	background-image: url("hp_box_bg.png");
+	border: 0px solid black; 
+	border-radius: 4px;
+	background-size: 100%;
+	display: block; 
+	background-color: #f1f1f1; 
+	width: 100px; 
+	text-align: center; 
+	position: absolute; 
+	top: 46px; 
+	left: 100%
+	}
+	
+	div.articles-content {
+	display: none; 
+	position: relative
+	}
+	
+	li.videos-dropright:hover div.videos-content {
+	background-image: url("hp_box_bg.png");
+	border: 0px solid black; 
+	border-radius: 4px;
+	background-size: 100%;
+	display: block; 
+	background-color: #f1f1f1; 
+	width: 100px; 
+	text-align: center; 
+	position: absolute; 
+	top: 92px; 
+	left: 100%
+	}
+	
+	div.videos-content {
+	display: none; 
+	position: relative
+	}
+	
+	li.about-dropleft:hover div.about-content {
+	background-image: url("hp_box_bg.png");
+	border: 0px solid black; 
+	border-radius: 4px;
+	background-size: 100%;
+	display: block; 
+	background-color: #f1f1f1; 
+	width: 100px; 
+	text-align: center; 
+	position: absolute; 
+	top: 46px; 
+	right: 100%
+	}
+	
+	div.about-content {
+	display: none; 
+	position: relative
+	}
+	
+	div {
+	margin: 0; 
+	padding: 0
+	}
+	
+	div.media-window {
+	padding-top: 20px; 
+	padding-bottom: 20px
+	}
+	
+	table {
+	border-style: dashed;
+	border-radius: 5px;
+	border-width: 2px;
+	max-width: 650px; 
+	width: 100%; 
+	background-image: url("hp_content_bg.png");
+	background-size: 7%;
+	background-color: #F2F2F2; 
+	margin: auto
+	}
+	
+	td.table-content {
+	border-style: dashed;
+	border-color: grey;
+	background-color: white;
+	border-width: 2px;	
+	height: 100px
+	}
+	
+	hr {
+	max-width: 650px;
+	height: 5px;
+	margin: 0 auto;
+	color: black;
+	background: white;
+	}
+
+	div.text {
+	margin: auto;
+	font-size: 25px;
+	max-width: 650px;
+	}
+	
+</style>
+
+</head>
+
+<body>
+<div class="body">
+
+<div class="navleft">
+		<li> <a alt="Home" <a href="#TopPage">Home</a></li>
+		<li class="articles-dropright"> 
+			<a alt="Articles" <a href="#link_1.html">Articles ⮞</a>
+				<div class="articles-content">
+					<a alt="New" <a href="#ArticlesNew">New</a>
+					<a alt="Old" <a href="#ArticlesOld">Old</a>
+				</div>
+		</li>
+		<li class="videos-dropright"> 
+		    <a alt="Videos" <a href="#link_1.html">Videos ⮞</a>
+		        <div class="videos-content">
+		            <a alt="Montage" <a href="#VideosNew">New</a>
+		            <a alt="Fun" <a href="#VideosOld">Old</a>
+		        </div>
+		</li>
+</div>
+	
+    <div class="navright">
+		<li> <a alt="Forum" <a href="#link_1.html">Forum</a></li>
+		<li class="about-dropleft"> 
+			<a alt="About" <a href="#link_1.html">⮜ About</a>
+				<div class="about-content">
+					<a alt="Me" href="#link_1.html">Me</a>
+					<a alt="Site" <a href="#link_1.html">Site</a>
+				</div>
+		</li>
+		<li> <a alt="Home" <a href="#link_1.html">Holder</a></li>
+	</div>
+
+<div class="header">
+	
+	<a name="TopPage"></a>
+
+	<div class="logo">
+	</div>
+
+</div>	
+
+<div class="mainbox">
+
+	<div class="media-window">
+	
+		<div class="text">
+		<a name="ArticlesNew">Articles</a>
+		</div>
+		
+		<br>
+	
+		<table>
+		<tr>
+			<th align="left"><font color="white">Header</font></th> <th align="right"><font color="white">Date</font></th>
+		</tr>
+		<tr>
+			<td class="table-content" colspan="2">Content</td>
+		</tr>
+		<tr>
+			<td colspan="2"><font color="white">Footer</font></td>
+		</tr>
+		</table>
+		
+		<div class="text">
+		<a name="ArticlesOld"></a>
+		</div>
+		
+		<br>
+		
+		<hr>
+		
+		<br>
+		
+		<div class="text">
+		<a name="VideosNew">Videos</a>
+		</div>
+		
+		<br>
+	
+		<table>
+		<tr>
+			<th align="left" min-height="100px"><font color="white">Header</font></th> <th align="right"><font color="white">Date</font></th>
+		</tr>
+		<tr>
+			<td class="table-content" colspan="2">Content</td>
+		</tr>
+		<tr>
+			<td colspan="2"><font color="white">Footer</font></td>
+		</tr>
+		</table>
+		
+		<div class="text">
+		<a name="VideosOld"></a>
+		</div>
+		
+	</div>
+
+</div>
+
+</div>
+</body>
+</html>
